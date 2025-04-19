@@ -12,9 +12,8 @@ GTimer blinkTimer(MS, 500);
 GTimer mqttBlinkTimer(MS, 100);
 
 PicoMQTT::Server mqtt;
-
-String ssid = "wifi";
-String password = "wifiwifi";
+String ssid = "netis_2.4G";
+String password = "Viklux26";
 String TOPIC = "server";
 String MSG = "ESP Broker says Hello!";
 
